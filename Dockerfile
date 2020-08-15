@@ -61,4 +61,3 @@ RUN chmod +x /opt/setup.sh && /opt/setup.sh
 COPY init-windscribe.sh /init-windscribe.sh
 RUN chmod +x /init-windscribe.sh
 CMD /init-windscribe.sh && /bin/bash
-
